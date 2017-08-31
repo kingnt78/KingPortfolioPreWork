@@ -34,7 +34,6 @@ body{
     }
   .photorow{
         float:left;
-      
         width:29.33%;
         margin:1%;
         padding:1%;
@@ -44,7 +43,7 @@ body{
     
 
 
-intro{
+.intro{
     max-width: 960px;
     margin:0 auto;
     padding:8% 0;
@@ -57,6 +56,7 @@ h1, h2, h3 {
 }
 header {
     background-position: center top;
+    text-transform: uppercase;
     width:100%;
 }
 form{
