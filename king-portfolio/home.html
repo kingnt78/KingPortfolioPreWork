@@ -6,23 +6,45 @@
 		href="styles.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet"> 
-        
-        
-        
-        
         <title>Home Page</title>
+        <script type="text/javascript" src="nav.js"></script> 
     </head>
     <body>
-       <div class="contatiner"> 
+        <div id="cont1">
+            <a href="#" onclick="return false;" onemousedown="dropMenu ('dropmenu1')">Home</a>
+            <div id="dropMenu1" class="dropmenus">
+                <a href="about-me.html?x=about me">About> Me</a
+               <a href="contact-me.html?x=contact me">Contact Me</a>
+               </div>
+        <div id="cont2">
+                <a href="#" onclick="return false;" onmousedown="dropMenu('dropmenu2')">About Me</a>
+                <div id="dropmenu2" class="dropmenus">
+                <a href="contact-me.html?x=contact me">Contact Me</a>
+                   <a href="home.html?x=home">Home</a>
+                </div>
+              </div>
+        <div id="cont3">
+                <a href="#" onclick="return false;" onmousedown="dropMenu('dropmenu3')">Contact Me</a>
+                <div id="dropmenu3" class="dropmenus">
+                     <a href="home.html?x=home">Home</a>
+                     <a href="about-me.html?x=about me">About> Me</a
+                </div>
+              </div>
+              
+            
+              
+      
+       <header>
+           <div class="contatiner"> 
        <nav class="navbar">
        <ol>
            <li><a href="home.html">Home</a></li>
            <li><a href="about-me.html">About Me</a></li>
            <li><a href="contact-me.html">Contact Me</a></li>
+           
        </ol>
        </nav>
-       </div>
-       <header>
+       </div> 
            
         <h1>Nicole King </h1>
         <h2> BootCamp Student</h2>

@@ -1,11 +1,12 @@
 body{
     background-color:#997a8d;
     font-family: 'Encode Sans', sans-serif;
-}
-    .container{
-        width:100px;
-        height:auto;
+{
+}    .container{
+        max-width: 100px;
+        padding-top: 30px;
     }
+}
     .navbar{
             width:100%;
             height:60;
@@ -31,6 +32,7 @@ body{
     }
     header{
         background-color:#777696;
+        font-family: 'Bitter';
     }
   .photorow{
         float:left;
@@ -39,10 +41,62 @@ body{
         padding:1%;
         height: 140px;
     }
-
     
+    p{
+        font-family: sans-serif;
+    }
+    img {
+      box-shadow: 20px 20px 20px;
+    
+}
 
+div.dropmenus {
+  display: none;
+  position: absolute;
+  top: 100px;
+  width: 120px;
+  background: #D2E9FF;
+  z-index: 2;
+  padding: 4px;
+  border: #0385CB 3px solid;
+  border-top: none;
+  -moz-border-radius: 0px 0px 8px 8px;
+  border-radius: opx opx 8px 8px;
+}
 
+div.dropmenus {
+  display: none;
+  position: absolute;
+  top: 100px;
+  width: 120px;
+  background: #D2E9FF;
+  z-index: 2;
+  padding: 4px;
+  border: #0385CB 3px solid;
+  border-top: none;
+  -moz-border-radius: 0px 0px 8px 8px;
+  border-radius: opx opx 8px 8px;
+}
+
+div.dropmenus > a {
+  display: block;
+  margin: 4px;
+  padding: 7px;
+  font-size: 14px;
+  text-decoration: none;
+  background: #E8E8E8;
+  border: #666 1px solid;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #000;
+}
+
+div.dropmenus > a:hover {
+  background: #FFF;
+  border: #06F 1px solid;
+  color: #000;
+
+}
 .intro{
     max-width: 960px;
     margin:0 auto;
